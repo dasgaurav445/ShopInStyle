@@ -1,0 +1,108 @@
+
+.body{
+background-color:white ;
+}
+
+.label{
+    font-size: .5rem;
+    font-variant: small-caps;
+    color:lightgoldenrodyellow;
+}
+
+.login-title{
+    font-size: 4rem;
+    margin-top: 3rem;
+    text-shadow: 2px 2px grey;
+    color: rgb(2, 98, 2);
+    font-family: 'Clash Display';
+}
+
+input{
+    padding-left: 4rem;
+    font-size: 1rem;
+    box-shadow: 2px 3px 4px 2px black;
+    transition: 0.1s all linear;
+    border-radius: 10%;
+}
+input:hover{
+    cursor: pointer;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+
+button.submit-btn{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    transition: 0.3s all linear;
+    color:black;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px 2px black;
+    font-family: 'Clash Display';
+    letter-spacing: 4px;
+    border-radius: 10%;
+}
+button.submit-btn:hover{
+    background-color: greenyellow;
+    letter-spacing: 12px;
+}
+
+.email-label{
+    position: relative;
+    color:black;
+    
+}
+
+.mail-icon{
+    position: absolute;
+    bottom: -2.5rem;
+    left:1rem;
+    color:green;
+
+}
+
+.password-label{
+    position: relative;
+    color:black;
+   
+}
+
+.password-icon{
+    position: absolute;
+    bottom: -2.5rem;
+    left:1rem;
+    color:green;
+
+}
+
+input{
+    background-color: white;
+}
+
+
+@media(max-width:768px){
+    .login-title{
+
+        font-size: 4rem;
+    }
+}
+
+@media(min-width:1200px){
+    .email-label,.password-label{
+        font-size: 2rem;
+    }
+    .password-icon,.mail-icon{
+        bottom:-3.4rem;
+    }
+
+   input{
+    height:4rem;
+   }
+
+   .login-title{
+    margin-top: 1rem;
+   }
+ 
+}
